@@ -2,8 +2,7 @@
 #intro {
   height: calc(100vh - 4rem);
   width: 100vw;
-  margin: 0;
-  padding: 0;
+
   overflow: hidden;
   position: relative;
   display: flex;
@@ -36,10 +35,13 @@
   font-weight: 300;
   max-width: 100vw;
 }
-
+.spacerLastChild {
+  margin: 1rem;
+  padding: 0.5rem;
+}
 .bg {
   position: static;
-  width: 80vw;
+  width: 90vw;
   height: auto;
   margin: 1rem;
   box-shadow: none;
@@ -61,7 +63,12 @@
   }
   .introPara {
     font-size: 1.5rem;
-    max-width: 50vw;
+    /* max-width: 50vw; */
+  }
+  .bg {
+    width: 70vw;
+    height: auto;
+    margin: 1rem auto;
   }
 }
 
@@ -72,6 +79,9 @@
   }
   .spacerLastChild {
     flex: 0 1 20%;
+  }
+  .introPara {
+    max-width: 50vw;
   }
   .bg {
     position: absolute;
@@ -91,6 +101,9 @@
   .spacerLastChild {
     flex: 0 1 20%;
   }
+  .introPara {
+    max-width: 30vw;
+  }
 }
 
 /* Large Desktop Adjustments */
@@ -99,17 +112,8 @@
     margin: 2rem;
     padding: 1rem;
   }
-  .introContent {
-    font-size: 3.5vw;
-  }
-  .introPara {
-    font-size: 1.5vw;
-  }
-  .spacerFirstChild {
-    flex: 0 1 10%;
-  }
   .bg {
-    width: 30vw;
+    width: 25vw;
     height: auto;
   }
 }
