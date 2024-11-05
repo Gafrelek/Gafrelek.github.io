@@ -21,9 +21,8 @@ const Intro = () => {
           </span>
 
           <p className="introPara">
-            <br />
-            I am passionate about crafting seamless, user-friendly <br />{' '}
-            digital experiences.
+            <br />I am passionate about crafting seamless, user-friendly digital
+            experiences.
           </p>
         </div>
         <img src={fotoGF} alt="Gregor photo" className="bg" />
