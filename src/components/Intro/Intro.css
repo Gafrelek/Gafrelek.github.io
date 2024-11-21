@@ -1,7 +1,9 @@
-/* Base styles for smallest screens */
+//Base styles for smallest screens
 #intro {
   height: calc(100vh - 4rem);
   width: 100vw;
+  border-style: solid;
+  border-color: rgb(33, 38, 35);
 
   overflow: hidden;
   position: relative;
