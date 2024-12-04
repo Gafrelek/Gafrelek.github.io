@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import Skills from '../Skills/Skills';
 
 const About = () => {
   return (

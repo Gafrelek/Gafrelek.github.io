@@ -1,0 +1,40 @@
+/* Base styles for the skill container */
+.skillContainer {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(120px, 1fr)
+  ); /* Dynamic column sizing */
+  gap: 1rem; /* Add spacing between items */
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin: 2rem auto;
+  box-sizing: border-box;
+}
+
+/* Individual skill styles */
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  box-sizing: border-box;
+  background-color: #f9f9f9; /* Optional background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Icon styles */
+.skillIcon {
+  font-size: calc(2rem + 1vw); /* Dynamically scale icon size */
+  margin-bottom: 0.5rem;
+}
+
+/* Text styles */
+.skill p {
+  font-size: calc(0.8rem + 0.5vw); /* Dynamically scale text size */
+  margin: 0;
+  text-align: center;
+}

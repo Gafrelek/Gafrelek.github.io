@@ -1,5 +1,7 @@
-#about {
+#skills {
   display: flex;
+  flex-direction: column;
+
   justify-content: center;
   align-items: center;
   /* height: 100vh; */
@@ -8,12 +10,13 @@
   box-sizing: border-box;
 }
 
-.aboutContent {
+.skills-container {
   width: 100%;
   letter-spacing: 1px;
   font-weight: 300;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+
   align-items: center;
   justify-content: center;
   text-align: justify;
