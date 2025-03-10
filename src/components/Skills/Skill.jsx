@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import './Skill.css';
 import { FaHtml5, FaCss3, FaJsSquare, FaReact, FaGithub } from 'react-icons/fa';
@@ -11,6 +12,7 @@ const iconMap = {
   FaGithub: FaGithub,
 };
 
+// eslint-disable-next-line react/prop-types
 const Skill = ({ skillName, iconName }) => {
   // Retrieve the icon component by its name
   const IconComponent = iconMap[iconName];
